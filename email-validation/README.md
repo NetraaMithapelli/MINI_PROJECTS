@@ -1,4 +1,5 @@
-#Smart Email Validator
+# **Smart Email Validator**
+
 A Python-based email validation system that performs multiple levels of verification to ensure that an email address is structurally correct, belongs to a real domain, and can be verified using an OTP.
 This project demonstrates practical validation techniques commonly used in real-world applications such as signup systems, authentication platforms, and secure communication services.
 
