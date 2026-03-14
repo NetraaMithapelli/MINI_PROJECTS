@@ -3,20 +3,21 @@
 A Python-based email validation system that performs multiple levels of verification to ensure that an email address is structurally correct, belongs to a real domain, and can be verified using an OTP.
 This project demonstrates practical validation techniques commonly used in real-world applications such as signup systems, authentication platforms, and secure communication services.
 
-#Features
-1)**Email Format Validation**
+## Features
+
+1)**Email Format Validation** : 
   Uses Regular Expressions (Regex) to verify correct email syntax.
 
-2)**Domain Verification**
+2)**Domain Verification** : 
   Checks whether the email domain actually exists using DNS MX record lookup.
 
-3)**OTP Email Verification**
+3)**OTP Email Verification** : 
   Sends a One-Time Password (OTP) to the provided email to confirm ownership.
 
-4)**Security with Environment Variables**
+4)**Security with Environment Variables** : 
   Sensitive credentials such as the sender email password are stored in a `.env` file and excluded from version control using `.gitignore`.
 
-#Technologies Used
+## Technologies Used
 
 * Python
 * `re` (Regular Expressions)
